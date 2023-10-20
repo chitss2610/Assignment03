@@ -1,0 +1,44 @@
+@media screen and (max-width: 720px) {
+  .project__list {
+    display: block;
+  }
+
+  .project__item {
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid 1px #b37a5f;
+  }
+
+  .achievement__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .achievement__img {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+    .nav__menu {
+      display: block;
+    }
+
+    .nav__item,
+    .nav__item:first-child,
+    .nav__item:last-child,
+    .nav__item:nth-child(2),
+    .nav__item:nth-child(4) {
+        width: 100%;
+    }
+
+    .myself__inner {
+      display: block;;
+    }
+
+    .achievement__title {
+        font-size: 14px;
+    }
+}

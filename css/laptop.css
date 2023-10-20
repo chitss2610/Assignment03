@@ -1,0 +1,48 @@
+@media screen and (max-width: 1440px) {
+    .nav__item-img {
+        display: none;
+    }
+
+    .achievement__title {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .myself__box {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .achievement__list {
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+        ;
+    }
+
+    .achievement__list:first-child {
+        border-bottom: unset;
+        padding-bottom: unset;
+    }
+
+    .achievement__item:nth-child(2) {
+        padding: unset;
+    }
+
+    .achievement__item:first-child {
+        border: none;
+        padding-right: none;
+    }
+
+    .achievement__title {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .project__title {
+        font-size: 14px;
+    }
+
+
+}
+
